@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practice Site</title>
+    <link rel="stylesheet" href="./styles.css">
+</head>
+
+<body>
+    <section>
+        <nav>
+            <img src="https://styles.redditmedia.com/t5_1bhapv/styles/profileIcon_bkh4mm9p07151.jpg?width=256&height=256&crop=256:256,smart&s=01adb709475ffc2fd0ba1305e86df9b14e3f86ca"
+                class="logo" alt="" />
+            <ul>
+                <li>
+                    <a href="https://twitter.com/MrKawone">Twitter</a>
+                </li>
+                <li>
+                    <a href="https://www.youtube.com/channel/UCPS-HAybo7OFQmETH9GWhIQ">YouTube</a>
+                </li>
+                <li>
+                    <a href="https://www.twitch.tv/mrkawone">Twitch</a>
+                </li>
+            </ul>
+        </nav>
+        <header>
+            <div class="row">
+                <div class="welcome">
+                    <h1>
+                        Welcome To MrKawone.com
+                    </h1>
+                    <p class="subheader">
+                        Where we come to look back and enjoy this MARVELOUS content!!!
+                    </p>
+                    <button>Join Now</button>
+                </div>
+                <Figure>
+                    <img src="https://styles.redditmedia.com/t5_1bhapv/styles/profileIcon_bkh4mm9p07151.jpg?width=256&height=256&crop=256:256,smart&s=01adb709475ffc2fd0ba1305e86df9b14e3f86ca"
+                        alt="MrKawone Logo" />
+                </Figure>
+            </div>
+        </header>
+    </section>
+    <main>
+        <section id="about">
+            <h2>What's Up It's Me</h2>
+            <div class="row">
+                <div class="section__description">
+                    <!this class was added to make it possible to display flex the image in CSS>
+                        <div class="section__description--wrapper">
+                            <! added to beable to taget the wrapper around the image in the about section to size it
+                                properly>
+                                <p class="section__descriptiom--para">Lorem ipsum dolor, sit amet consectetur
+                                    adipisicing elit. Debitis asperiores nobis labore cum cumque, beatae reprehenderit
+                                    magni, consequuntur doloribus veniam assumenda laudantium inventore dolor quaerat?
+                                </p>
+                                <! added the class="section__descriptiom--para" to make just those 2 <p> editable in
+                                    CSS>
+                                    <p class="section__descriptiom--para">Lorem ipsum dolor, sit amet consectetur
+                                        adipisicing elit. Vitae dignissimos hic dolorem ipsum et odit.</p>
+                        </div>
+                        <figure class="about__img--wrapper">
+                            <! added to be able to change the size of the image>
+                                <img src="https://static-cdn.jtvnw.net/jtv_user_pictures/1b73b55f-aa56-49fb-8815-b6d9ba785e84-profile_image-70x70.png"
+                                    alt="Photo of MrKawone">
+                        </figure>
+                </div>
+            </div>
+        </section>
+        <section id="socials">
+            <h2>Socials</h2>
+            <div class="row">
+            <div class="section__description" <figure class="about__img--wrapper">
+                <img src="data:image/jpeg;base64,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"
+                    alt="Social Medias">
+                </figure>
+                <div class="section__description--wrapper">
+                    <p class="section__descriptiom--para">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Libero explicabo, velit doloribus nisi est perferendis deleniti quibusdam nihil blanditiis
+                        natus! </p>
+                    <p class="section__descriptiom--para">Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                        Consequatur, soluta modi repellendus ipsa placeat dolorem! Est dolor fuga, dolores qui
+                        reprehenderit consequuntur eum voluptatibus labore?</p>
+                </div>
+       </div>
+     </section>
+        <section id="contact">
+            <h2>Contact</h2>
+            <div class="row">
+            <form action="">
+                <span> Email</span>
+                <input type="email" placeholder="jane@example.com"></input>
+                <span> Message</span>
+                <textarea type="text" placeholder="Leave me a message"></textarea>
+                <button>Contact Me</button>
+            </form>
+        </div>
+    </section>
+    </main>
+
+    <footer>
+        <div> <img class="footer__logo"
+                src="https://yt3.ggpht.com/ytc/AKedOLT0Gi0Jns-rEsMAfifhG-H5cSbjgXsNIPn2gUvu=s88-c-k-c0x00ffffff-no-rj"
+                alt="Logo">
+            <div class="footer__links">
+                <a class="footer__link" href="https://twitter.com/MrKawone">Twitter</a>
+                <a class="footer__link" href="https://www.youtube.com/channel/UCPS-HAybo7OFQmETH9GWhIQ">YouTube</a>
+                <a class="footer__link" href="https://www.twitch.tv/mrkawone">Twitch</a>
+            </div>
+            <p class="copyright"> Coppyright MrKawone 2022</p>
+    </footer>
+</body>
+
+</html>
